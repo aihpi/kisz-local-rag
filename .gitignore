@@ -6,7 +6,7 @@ __pycache__/
 myvenv/
 venv/
 .myvenv/
-venv/
+.venv/
 
 # Env variables file
 .env
@@ -27,7 +27,6 @@ my_*
 local_*
 
 # Deploy, bin folders
-deploy/
 bin/
 
 # IDE

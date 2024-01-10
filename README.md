@@ -38,13 +38,13 @@ $ pip3 install -r requirements.txt
 Install to run large language models locally.
 
 ```shell
-curl https://ollama.ai/install.sh | sh
+$ curl https://ollama.ai/install.sh | sh
 ```
 
 choose a model and download it. For example
 
 ```shell
-ollama pull mistral
+$ ollama pull mistral
 ```
 
 ---
@@ -71,15 +71,17 @@ $ ollama serve
 
 #### Additional Input parameters on the Frontend
 
-- Top k: Ranks the output tokens in descending order of probability, selects the first k tokens to create a new distribution and it samples the output from these tokens. Higher values result in more diverse answers, and a lower values will produce more conservative answers. ([0, 10]. Default: 5)
+- Top k: Ranks the output tokens in descending order of probability, selects the first k tokens to create a new distribution, and it samples the output from it. Higher values result in more diverse answers, and lower values will produce more conservative answers. ([0, 10]. Default: 5)
 
 - Top p: Works together with Top k, but instead of selecting a fixed number of tokens, it selects enough tokens to cover the given cumulative probability. A higher value will produce more varied text, and a lower value will lead to more focused and conservative answers. ([0.1, 1] Default: 0.9)
 
 - Temp: This affects the “randomness” of the answers  by scaling the probability distribution of the output elements. Increasing the temperature will make the model answer more creatively. ([0.1, 1]. Default: 0.5)
 
+---
+
 ## Development
 
-Before commiting format the code by using black as following on the project folder:
+Before commiting, format the code by using black as following on the project folder:
 
 ```shell
 $ black -t py311 -S -l 99 .
@@ -90,6 +92,8 @@ You can Install Black with:
 ```shell
 $ python3 -m pip install black
 ```
+
+---
 
 ## License
 

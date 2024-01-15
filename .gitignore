@@ -26,9 +26,6 @@ obsolete/
 my_*
 local_*
 
-# Deploy, bin folders
-bin/
-
 # IDE
 .vscode/
 

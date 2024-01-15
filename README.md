@@ -18,7 +18,21 @@
 
 ## Getting Started
 
-#### Download or clone the repository
+### Download or clone the repository
+
+### Installation
+
+Run the installation script
+
+```shell
+$ bin/install.sh
+```
+
+---
+
+### Manual Installation
+
+Alternatively, install it step by step
 
 #### Create and activate a virtual environment
 

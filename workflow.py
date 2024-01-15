@@ -215,7 +215,6 @@ user_input = "Hi. who are you?"
 ollama_context = []
 print(f"Start chatting with {MODEL} model (Press q to quit)\n")
 while user_input != "q":
-    print("Context length:", len(ollama_context))
     bot_response, ollama_context = generate(
         user_input, context=ollama_context, top_k=10, top_p=0.9, temp=0.5
     )

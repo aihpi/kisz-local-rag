@@ -52,7 +52,7 @@ $ ollama pull mistral
 ## Usage
 
 ```shell
-$ python3 local-rag-gui.py
+(myvenv)$ python3 local-rag-gui.py
 ```
 
 And open the exposed link with your browser for the Graphical User Interface version.
@@ -60,10 +60,10 @@ And open the exposed link with your browser for the Graphical User Interface ver
 Or, run the following for the command line input version
 
 ```shell
-$ python3 local-rag-cli.py
+(myvenv)$ python3 local-rag-cli.py
 ```
 
-In case the LLM server is not running you can start it with:
+In case the LLM server is not running start it in a different terminal with:
 
 ```shell
 $ ollama serve

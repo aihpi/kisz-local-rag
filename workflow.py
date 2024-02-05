@@ -228,6 +228,10 @@ while user_input != "q":
 # #### **Integrate the components for a RAG System:**
 # #### &bull; **Text embedding: Sentence Bert**
 # https://www.sbert.net/
+#
+# Sample Similarity Model:
+#
+# https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 # #### &bull; **Vector Database: ChromaDB**
 # https://docs.trychroma.com/
 # #### &bull; **Local LLM: ollama**

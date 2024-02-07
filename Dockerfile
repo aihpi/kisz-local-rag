@@ -17,11 +17,11 @@ RUN pip install --no-cache-dir -r requirements.txt && \
     fix-permissions "/home/${NB_USER}"
 
 # Copy the rest of the application into the container
-COPY . .
+COPY . /home/${NB_USER}/work
 
 # Fix permissions on /home/${NB_USER} as root
 USER root
-RUN fix-permissions /home/${NB_USER}
+RUN fix-permissions /home/${NB_USER}/work
 
 # Switch back to jovyan to avoid accidental container runs as root
 USER ${NB_UID}

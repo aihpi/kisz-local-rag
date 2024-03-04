@@ -74,10 +74,13 @@ def get_chunks(text, max_words=256, max_title_words=4):
 
 if __name__ == '__main__':
     # check chunk splitting
-    docs_path = 'data'
+    docs_path = 'sample_data'
     files = list_files(docs_path, extensions=('.txt', '.pdf'))
-    print(files)
-    text = read_file(files[0])
+    print("Found files:")
+    print("\n".join(files))
+    chosen_file = files[1]
+    print(f"\nReading and splitting {chosen_file}...")
+    text = read_file(chosen_file)
     chunks = get_chunks(text)
     print("\nChunks:")
     for c in chunks:

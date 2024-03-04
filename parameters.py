@@ -4,7 +4,7 @@
 DATA_PATH = "sample_data/"
 
 # Text embedding (sentence transformer)
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "multi-qa-MiniLM-L6-cos-v1"
 
 # Vector Store
 CHROMA_DATA_PATH = "chroma_data/"

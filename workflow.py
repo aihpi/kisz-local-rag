@@ -96,6 +96,12 @@ for k, v in text_embs_dict.items():
     print(k, round(cos_sim(emb_test_text, v), 3))
 
 # %% [markdown]
+# **To do:**
+#
+# - Try different sentences and compare similarities.
+#
+# - Check alternative sentence-trasnformers. Read Model Cards. Compare outputs.
+# %% [markdown]
 # #### &bull; **Using a Vector Database**
 
 # %%
@@ -225,16 +231,25 @@ while user_input != "q":
 # %% [markdown]
 # -----------------------------------------------------------------------------
 # ## Integration
-# #### **Integrate the components for a RAG System:**
+# #### **Integrate the components for a RAG System.**
+# ### References:
 # #### &bull; **Text embedding: Sentence Bert**
 # https://www.sbert.net/
 #
-# Sample Similarity Model:
+# Sample Sentence Transformers:
 #
 # https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+#
+# https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1
+#
+# https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-cos-v1
+#
+# Check and compare
 # #### &bull; **Vector Database: ChromaDB**
 # https://docs.trychroma.com/
 # #### &bull; **Local LLM: ollama**
 # https://ollama.ai/
 # #### &bull; **Frontend: Gradio**
 # https://www.gradio.app/
+
+# %%

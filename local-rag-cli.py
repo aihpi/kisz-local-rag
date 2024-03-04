@@ -6,14 +6,15 @@ from ragfuncs import (
     generate,
 )
 from parameters import DATA_PATH
-from parameters import CHROMA_DATA_PATH, COLLECTION_NAME
+from parameters import CHROMA_DATA_PATH, COLLECTION_NAME, MODEL
 
 
 def main():
     make_collection(DATA_PATH, COLLECTION_NAME)
     collection = get_collection(CHROMA_DATA_PATH, COLLECTION_NAME)
 
-    print(f"\n============== Local RAG Sytem (Press 'q' to quit) ==============")
+    print(f"\n============== Local RAG (Model: {MODEL}) ==============")
+    print("(Press 'q' to quit)")
     while True:
         user_input = input("\nYour prompt: ")
         if user_input == "q":

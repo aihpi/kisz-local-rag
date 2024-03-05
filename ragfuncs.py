@@ -117,8 +117,8 @@ if __name__ == "__main__":
 
     # Query
     query = "Where can I learn about artificial intelligence in Berlin?"
-    # query = What happened to John McClane in Christmas?
-    # query = Who is Sherlock Holmes?
+    # query = "What happened to John McClane in Christmas?"
+    # query = "Who is Sherlock Holmes?"
 
     print("\nQuery:", query)
 

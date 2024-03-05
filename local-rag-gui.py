@@ -15,7 +15,7 @@ def main():
     collection = get_collection(CHROMA_DATA_PATH, COLLECTION_NAME)
 
     def rag(user_msg, history, top_k, top_p, temp):
-        relevant_text = get_relevant_text(collection, user_msg)
+        relevant_text = get_relevant_text(collection, user_msg, sim_th=0.4)
         context_query = get_context_prompt(user_msg, relevant_text)
         bot_response = generate(context_query, top_k=top_k, top_p=top_p, temp=temp)
         return bot_response

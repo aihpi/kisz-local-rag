@@ -20,7 +20,7 @@ def main():
         if user_input == "q":
             break
 
-        relevant_text = get_relevant_text(collection, user_input)
+        relevant_text = get_relevant_text(collection, user_input, sim_th=0.4)
 
         # LLM Cli
         context_query = get_context_prompt(user_input, relevant_text)

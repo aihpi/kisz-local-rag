@@ -98,9 +98,9 @@ for k, v in text_embs_dict.items():
 # %% [markdown]
 # **To do:**
 #
-# - Try different sentences and compare similarities.
+# - Experiment with different sentences and compare similarities.
 #
-# - Check alternative sentence-trasnformers. Read Model Cards. Compare outputs.
+# - Check alternative sentence-transformers. Read Model Cards. Compare results.
 # %% [markdown]
 # #### &bull; **Using a Vector Database**
 
@@ -229,6 +229,11 @@ while user_input != "q":
     user_input = input("\nYour prompt: ")
 
 # %% [markdown]
+# **To do:**
+#
+# - Experiment with different input parameters, arguments, prompts and compare results.
+#
+# %% [markdown]
 # -----------------------------------------------------------------------------
 # ## Integration
 # #### **Integrate the components for a RAG System.**
@@ -251,5 +256,3 @@ while user_input != "q":
 # https://ollama.ai/
 # #### &bull; **Frontend: Gradio**
 # https://www.gradio.app/
-
-# %%

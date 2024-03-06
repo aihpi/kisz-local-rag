@@ -105,7 +105,8 @@ def get_context_prompt(question, context):
         "Keep the answer as concise as possible.\n"
         "Context:\n"
         f"{context}"
-        f"Question: {question}"
+        "\nQuestion:\n"
+        f"{question}"
     )
 
     return contextual_prompt

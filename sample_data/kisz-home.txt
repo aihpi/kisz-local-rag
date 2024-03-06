@@ -32,4 +32,3 @@ We offer the following services free of charge:
 Education: Learning resources and formats such as workshops, MOOCs, or lectures to improve and enhance knowledge and skills related to AI. Available now!
 Consulting: Consulting services for custom AI applications and infrastructure selection, modeling, development, integration, transition to production environments, and prototyping. Available now!
 Computing Resources: Access to a heterogeneous AI computing infrastructure to meet the diverse needs of research, startups, and small and medium enterprises. Starting October 2023!
-For more information, please click on the respective images.

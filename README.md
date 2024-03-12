@@ -52,7 +52,7 @@ $ pip3 install -r requirements.txt
 Install to run large language models locally.
 
 ```shell
-$ curl https://ollama.ai/install.sh | sh
+$ curl -fsSL https://ollama.ai/install.sh | sh
 ```
 
 choose a model and download it. For example

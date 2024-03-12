@@ -28,7 +28,7 @@ def generate(prompt, context, top_k=5, top_p=0.9, temp=0.5):
 
 def llm_mockup(prompt, context=[], top_k=1, top_p=0.9, temp=0.5):
     # TODO: complete to depic the the use of top_k, top_p and temp?
-    return random.choice(["Yes!", "Not sure", "It depens", "42"]), context
+    return random.choice(["Yes!", "Not sure", "It depends", "42"]), context
 
 
 if __name__ == '__main__':

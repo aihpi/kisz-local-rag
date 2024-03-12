@@ -29,7 +29,7 @@ def generate(prompt, context, top_k=5, top_p=0.9, temp=0.5):
 
 
 def llm_mockup(prompt, top_k=1, top_p=0.9, temp=0.5, context=[]):
-    return random.choice(["Yes!", "Not sure", "It depens", "42"]), context
+    return random.choice(["Yes!", "Not sure", "It depends", "42"]), context
 
 
 def chat(user_msg, history, top_k, top_p, temp, context=[]):

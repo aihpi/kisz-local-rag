@@ -96,7 +96,7 @@ def generate(prompt, top_k=5, top_p=0.9, temp=0.2):
 
 
 def llm_mockup(prompt, top_k=1, top_p=0.9, temp=0.5):
-    return random.choice(["Yes!", "Not sure", "It depens", "42"])
+    return random.choice(["Yes!", "Not sure", "It depends", "42"])
 
 
 def get_context_prompt(question, context):

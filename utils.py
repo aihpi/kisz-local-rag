@@ -21,8 +21,7 @@ def read_file(doc):
             text = f.read()
     elif doc.endswith('.pdf'):
         pdf_reader = PdfReader(doc)
-        for page in pdf_reader.pages:
-            text += page.extract_text()
+        text = ''.join([page.extract_text() for page in pdf_reader.pages])
     return text
 
 

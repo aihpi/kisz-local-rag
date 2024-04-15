@@ -67,13 +67,11 @@ def get_relevant_text(collection, query='', nresults=2, sim_th=None):
 
     query_result = collection.query(query_texts=query, n_results=nresults)
     docs = query_result.get('documents')[0]
-    if sim_th:
+    if sim_th is not None:
         similarities = [1 - d for d in query_result.get("distances")[0]]
         relevant_docs = [d for d, s in zip(docs, similarities) if s >= sim_th]
-        relevant_text = ''.join(relevant_docs)
-    else:
-        relevant_text = ''.join(docs)
-    return relevant_text
+        return ''.join(relevant_docs)
+    return ''.join(docs)
 
 
 # LLM Funcs (Ollama)

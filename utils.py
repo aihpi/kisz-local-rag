@@ -72,6 +72,33 @@ def get_chunks(text, max_words=256, max_title_words=4):
     return chunks
 
 
+def get_chunks_fast(text, max_words=256, max_title_words=4):  # optimized for performance
+    """Split text in trivial context-awared chunks with less than max_words"""
+
+    # List of lines skipping empty lines
+    lines = [l for l in text.splitlines(True) if l.strip()]
+
+    chunks = []
+    chunk = []
+    chunk_length = 0
+    for l in lines:
+        line_length = len(l.split())
+        if chunk_length + line_length <= max_words and (
+            line_length > max_title_words or all(len(s.split()) <= max_title_words for s in chunk)
+        ):
+            chunk.append(l)
+            chunk_length += line_length
+            continue
+        chunks.append(''.join(chunk))  # if splitlines(False) do "\n".join()
+        chunk = [l]
+        chunk_length = len(l.split())
+
+    if chunk:
+        chunks.append(''.join(chunk))
+
+    return chunks
+
+
 if __name__ == '__main__':
     # check chunk splitting
     docs_path = 'sample_data'

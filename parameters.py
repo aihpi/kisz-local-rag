@@ -11,7 +11,7 @@ CHROMA_DATA_PATH = "chroma_data/"
 COLLECTION_NAME = "sample_docs"
 
 # LLM (ollama)
-LLMBASEURL = f"http://localhost:11434/api"
+LLMBASEURL = "http://localhost:11434/api"
 MODEL = 'mistral'
 
 # Frontend

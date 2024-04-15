@@ -5,7 +5,7 @@ import requests, json
 import random
 
 # $ ollama serve
-BASEURL = f"http://localhost:11434/api"
+BASEURL = "http://localhost:11434/api"
 MODEL = 'mistral'
 
 

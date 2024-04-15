@@ -3,7 +3,7 @@ from chromadb.utils import embedding_functions
 
 from parameters import EMBEDDING_MODEL, CHROMA_DATA_PATH, COLLECTION_NAME
 
-## Load and use stored DB
+# Load and use stored DB
 client = chromadb.PersistentClient(path=CHROMA_DATA_PATH)
 
 embedding_func = embedding_functions.SentenceTransformerEmbeddingFunction(
@@ -12,7 +12,7 @@ embedding_func = embedding_functions.SentenceTransformerEmbeddingFunction(
 
 collection = client.get_collection(name=COLLECTION_NAME, embedding_function=embedding_func)
 
-## Searching on the Database
+# Searching on the Database
 query1 = "Where can I learn about artificial intelligence in Berlin?"
 query2 = "What happend in christmas with John McClane?"
 query3 = "Who is Watson?"

@@ -10,7 +10,7 @@
 
 ![Local RAG](images/ragshow.gif)
 
-## Gain practical experience with [embeddings](https://github.com/KISZ-BB/kisz-nlp-embeddings) , vector databases, and local Large Language Models (LLMs)
+## Gain practical experience with [embeddings](https://github.com/aihpi/kisz-nlp-embeddings), vector databases, and local Large Language Models (LLMs)
 
 ![Flowchart](images/ragflowchart.png)
 
@@ -22,17 +22,8 @@
 
 ### Installation
 
-Run the installation script
-
-```shell
-$ bin/install.sh
-```
-
----
-
-### Manual Installation
-
-Alternatively, install it step by step
+Install it step by step
+(or check Auto Installation for a single command)
 
 #### Create and activate a virtual environment
 
@@ -59,6 +50,15 @@ choose a model and download it. For example
 
 ```shell
 $ ollama pull mistral
+```
+---
+
+### Auto Installation
+
+Alternatively, on bash, run the following installation script:
+
+```shell
+$ bin/install.sh
 ```
 
 ---

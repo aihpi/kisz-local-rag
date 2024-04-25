@@ -174,7 +174,7 @@ for i in range(len(queries)):
     for j in range(len(query_results["ids"][i])):
         print("id:", query_results["ids"][i][j])
         print("Text:", query_results["documents"][i][j])
-        print(f"Distance:", round(query_results["distances"][i][j], 2))
+        print("Distance:", round(query_results["distances"][i][j], 2))
         print("Metadata:", query_results["metadatas"][i][j])
 
     print(80 * "-")
@@ -186,7 +186,7 @@ for i in range(len(queries)):
 import requests, json
 
 # $ ollama serve
-BASEURL = f"http://localhost:11434/api"
+BASEURL = "http://localhost:11434/api"
 MODEL = 'mistral'
 
 

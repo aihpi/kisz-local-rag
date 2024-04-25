@@ -1,12 +1,11 @@
 ARG REGISTRY=quay.io
-ARG OWNER=ai-hpi
-ARG BASE_CONTAINER=$REGISTRY/$OWNER/pytorch-notebook:cuda-latest
+ARG OWNER=aihpi
+ARG JUPYTERHUB_VERSION
+ARG BASE_CONTAINER=$REGISTRY/$OWNER/workshop-notebook:pytorch-cuda12-ollama-hub-$JUPYTERHUB_VERSION
 FROM $BASE_CONTAINER
 
 # Fix hadolint warnings
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
-
-COPY --from=ollama/ollama /bin/ollama /usr/local/bin/ollama
 
 # Install requirements
 COPY requirements.txt .

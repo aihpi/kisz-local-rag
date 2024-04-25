@@ -232,7 +232,7 @@ while user_input != "q":
 # **To do:**
 #
 # - Experiment with different input parameters, arguments, prompts and compare results.
-# - Try different models (e.g. mistral, llama2, gemma, etc.)
+# - Try different models (e.g. mistral, llama3, gemma, phi3, etc.)
 #
 # %% [markdown]
 # -----------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-# ollama. curl https://ollama.ai/install.sh | sh
+# curl -fsSL https://ollama.com/install.sh | sh
 numpy==1.26.2
 requests==2.31.0
 pypdf==3.17.4

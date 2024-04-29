@@ -4,7 +4,7 @@ import requests, json, random
 
 # $ ollama serve
 BASEURL = "http://localhost:11434/api"
-MODEL = 'mistral'
+MODEL = 'phi3'
 
 
 def generate(prompt, context, top_k=5, top_p=0.9, temp=0.5):

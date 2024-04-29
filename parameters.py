@@ -12,7 +12,7 @@ COLLECTION_NAME = "sample_docs"
 
 # LLM (ollama)
 LLMBASEURL = "http://localhost:11434/api"
-MODEL = 'mistral'
+MODEL = 'phi3'
 
 # Frontend
 GUI_TITLE = f"Local RAG System ({MODEL})"

@@ -46,10 +46,12 @@ Install to run large language models locally.
 $ curl -fsSL https://ollama.ai/install.sh | sh
 ```
 
-choose a model and download it. For example
+Or follow the installation instructions for your operating system: [Install Ollama](https://ollama.com/download)
+
+Choose and download an LLM model. For example:
 
 ```shell
-$ ollama pull mistral
+$ ollama pull phi3
 ```
 ---
 

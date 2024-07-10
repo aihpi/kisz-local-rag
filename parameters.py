@@ -1,4 +1,5 @@
 from os import getenv
+from urllib.parse import urljoin
 
 # General configuration parameters on each area
 
@@ -13,7 +14,7 @@ CHROMA_DATA_PATH = "chroma_data/"
 COLLECTION_NAME = "sample_docs"
 
 # LLM (ollama)
-LLMBASEURL = getenv("OLLAMA_HOST", "http://localhost:11434/api")
+LLMBASEURL = urljoin(getenv("OLLAMA_HOST", "http://localhost:11434"), "api")
 MODEL = 'phi3'
 
 # Frontend

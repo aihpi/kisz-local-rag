@@ -15,7 +15,7 @@ COLLECTION_NAME = "sample_docs"
 
 # LLM (ollama)
 LLMBASEURL = urljoin(getenv("OLLAMA_HOST", "http://localhost:11434"), "api")
-MODEL = 'phi3'
+MODEL = "phi3"
 
 # Frontend
 GUI_TITLE = f"Local RAG System ({MODEL})"

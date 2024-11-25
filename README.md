@@ -1,4 +1,4 @@
-[![logo.png](images/logo.png)](https://hpi.de/en/kisz/home.html)
+[![logo.png](images/logo.png)](https://hpi.de/en/research/hpi-data-center/ai-service-center/)
 
 # 
 
@@ -113,4 +113,4 @@ $ python3 -m pip install black
 
 ## License
 
-[GPLv3](./LICENCE)
+[GPLv3](./LICENSE)

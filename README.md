@@ -51,7 +51,7 @@ Or follow the installation instructions for your operating system: [Install Olla
 Choose and download an LLM model. For example:
 
 ```shell
-$ ollama pull phi3
+$ ollama pull llama3.2
 ```
 ---
 

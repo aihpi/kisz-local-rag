@@ -40,7 +40,8 @@ from sentence_transformers import SentenceTransformer
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 model = SentenceTransformer(EMBEDDING_MODEL)
 
-# %% Sample Text
+# %%
+# Sample Text
 
 texts = [
     "Bali's beautiful beaches and rich culture stands out as a fantastic travel destination.",
@@ -184,10 +185,12 @@ for i in range(len(queries)):
 # %%
 
 import requests, json
+from os import getenv
+from urllib.parse import urljoin
 
 # $ ollama serve
-BASEURL = "http://localhost:11434/api"
-MODEL = 'phi3'
+BASEURL = urljoin(getenv("OLLAMA_HOST", "http://localhost:11434"), "api")
+MODEL = "llama3.2"
 
 
 def generate(prompt, context=[], top_k=5, top_p=0.9, temp=0.5):
@@ -232,7 +235,7 @@ while user_input != "q":
 # **To do:**
 #
 # - Experiment with different input parameters, arguments, prompts and compare results.
-# - Try different models (e.g. mistral, llama3, gemma, phi3, etc.)
+# - Try different models (e.g. mistral, llama3.1, gemma2, qwen2.5, llama3.2, qwen2.5:3b, etc.)
 #
 # %% [markdown]
 # -----------------------------------------------------------------------------

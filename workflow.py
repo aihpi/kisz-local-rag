@@ -12,10 +12,6 @@
 # - Encode text into vector
 # - Find Similarity
 
-# &nbsp;
-
-# <br/>
-
 # ## &bull; Vector store
 
 # - Using a Vector Database

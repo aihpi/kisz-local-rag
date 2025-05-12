@@ -1,0 +1,112 @@
+The AI Service Center is a project at the Hasso Plattner Institute. Our goal is to foster the use of artificial intelligence in business and society.
+
+We support start-ups, companies, public institutions, students, and researchers in developing and using AI applications. To this end, we provide the necessary resources, training, and advice at no cost. 
+
+Our services at a glance:
+1. Advisory
+2. Education
+3. Infrastructure
+
+Simplifying AI Transfer
+
+The AI Service Center at HPI is one of four AI service centers in Germany that are funded by the Federal Ministry of Education and Research (BMBF).
+
+"With our AI Service Center, we address those, in particular, who are interested in machine learning (ML) and who have already taken the first step and are now faced with the question of how to move from an initial trial of ML to productive use."
+
+Prof. Holger Karl, Scientific Director of the AI Service Center and the Internet Technologies and Softwarization research group at HPI
+
+Advisory
+
+We offer individual consultations in which we address your particular needs. You are welcome to book these meetings with us:
+
+1. AI consulting
+
+With our AI advisory, we support you free of charge with the implementation of your own AI applications. In particular, we can advise you on the use and operation of computing infrastructure and support you in considering on-premise or cloud operation. We also provide methodological advice on the selection of AI model architectures, AI software frameworks and the implementation of AI applications, taking into account the latest scientific research findings.
+
+2. Pilot projects
+
+Pilot projects go beyond basic consulting. We define pilot projects as the prototypical implementation of ideas that you bring to us and that we implement together with you. 
+
+For AI pilot projects our advisory consists of the following steps:
+
+Understanding and identifying the use case
+
+Specifying the use case
+
+Developing a solution together
+
+Finalizing and documenting the pilot project 
+
+Our next round of accompanying AI pilot projects will begin in March 2025. We will support projects in their successful implementation – free of charge. Apply by 01.02.2025 and benefit from the expertise of our AI experts, the infrastructure of our data center in Potsdam, support in the creation of an AI prototype, and 2-3 days per week of project work support from our team.
+
+3. Cooperation
+
+If you do not have a specific AI use case that you would like to implement with us, but still want to work with us, we offer you cooperation in the form of co-organized networking events or educational offerings such as workshops, lectures or Massive Open Online Courses. 
+
+4. Start-up support
+
+If you approach us on behalf of a start-up, we offer to accompany you during your development process and also support you in networking through our AI advisory, pilot projects and collaborations.
+
+Education
+
+We offer a range of face-to-face, online, and hybrid training courses. We are constantly developing our training courses. We are always open to suggestions – please send us an e-mail.
+
+Our formats
+
+Workshops
+
+Our workshops take place in small groups so that teachers can respond individually to participants and their different levels of prior knowledge.
+
+AI Maker Sessions
+
+If you want to deepen your knowledge and skills in the field of artificial intelligence, our AI maker sessions are the right place for you. The workshop series offers a comprehensive insight into various AI-related topics such as training and evaluation of machine learning models, neural network architectures and MLOps. In addition, participants will be prepared for our planned certification program for AI experts. 
+
+Paper Reading Sessions
+
+Our paper reading sessions are aimed at AI users, data scientists, and software engineers. These workshops cover the latest developments in automatic natural language processing, computer vision, and related fields.
+
+Mittelstand Digital Center Berlin Workshops
+
+The Mittelstand Digital Center Berlin at HPI offers a practice-oriented and interactive introduction to artificial intelligence. In the workshops, basic concepts and applications are taught using real-world examples.
+
+Massive Open Online Courses (MOOCs)
+
+With our AI Service Center channel on the openHPI platform, we offer a selection of online courses on various AI topics. Upon completing the courses, you can receive certificates that confirm your learning success and attest to your AI expertise.
+
+AI Certificate
+
+We prepare an AI certificate that you can use to certify your knowledge of AI topics.
+
+Talks
+
+We regularly organize Guest Talks on-site at HPI on current AI topics from research, development, and business. Recordings of these Guest Talks can be found on Tele-Task. On request, we also offer our own talks, which are aimed at a broad audience from society and business without requiring much prior knowledge and intended to fundamentally classify AI and explain its opportunities and risks.
+
+Can't find what you're looking for?
+
+Couldn't find the right educational program for you? Then visit our partners: the HPI School of Design Thinking, the HPI Engine, the Mittelstand Digital Center Berlin, the HPI Research Schools or AI Grid – or subscribe to our newsletter. We will inform you about current workshops, job offers, and other events every month. 
+
+Infrastructure
+
+With our data center in Potsdam, we provide a heterogeneous infrastructure for artificial intelligence. This allows us to explore the requirements and needs of different stakeholders such as academic institutions, start-ups or small and medium-sized enterprises. In this way, we can compare the costs and performance of different types of hardware, investigate edge applications and provide flexible solutions for the development, optimization and implementation of complex AI models.
+
+Infrastructure Specifics
+
+Our most powerful hardware are 8 NVIDIA Basepods with 8 H100 GPUs each (with 80 GB VRAM each), which can be used for training AI models. The H100 pods are connected to a fast memory system that enables direct writing from GPU memory to persistent memory. The H100 pods communicate with each other via 400 Gb/s Infiniband or 200 Gb/s Ethernet. For inference, 5 NVIDIA pods with 8 A30 each are available, which communicate with 25 Gb/s Infiniband or 40 Gb/s Ethernet. In addition, we offer access to an NVIDIA Jetson AGX module, an ARM server, a medium-sized server, virtualization servers, and storage modules. 
+
+How can I use the resources?
+
+We will gladly help you to use our infrastructure. To do so, please send us a brief project description and a signed copy of the user agreement, with which you accept our terms of use.  We will also be happy to help you select suitable resources and inform you about the advantages and disadvantages of cloud, on-premise, and hybrid solutions.
+
+What is the procedure?
+
+1. Request via e-mail and and acceptance of the terms of use (German only) by signing the usage contract (German only)
+
+2. Commitment of resources 
+
+3. Creation of the conditions of use  
+
+4. Access to computing resources 
+
+5. Documentation of the results and findings
+
+Last change: 14/03/2025, Mareike-Vic Schreiber

@@ -14,6 +14,13 @@ venv/
 # Data files
 data/*
 !data/.empty
+!data/sample_docs
+exports/*
+!exports/.empty
+
+# Logs
+log/*
+!log/.empty
 
 # Local data folders:
 local/
@@ -21,6 +28,8 @@ resources/
 chroma_data/
 bak/
 obsolete/
+vector_db/
+flagged/
 
 # My local files
 my_*
@@ -39,3 +48,4 @@ local_*
 # Other
 todo.txt
 to-do.txt
+tasklist.md

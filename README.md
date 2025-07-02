@@ -1,5 +1,11 @@
 [![logo.png](images/logo.png)](https://hpi.de/en/research/hpi-data-center/ai-service-center/)
 
+---
+
+# 02-07-2025 UPDATE!!! This repository has been merged into [RAGSST](https://github.com/aihpi/ragsst) and will no longer be supported.
+
+---
+
 # 
 
 # Ask your documents!
